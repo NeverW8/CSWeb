@@ -15,6 +15,18 @@ img {
 
 }
 
+.menu {
+display: flex;
+justify-content: space-between;
+--bg: #1e2d38;
+--fg: #ffffff;
+--secondaryFg: #b3b3b3;
+--containerBg: #272727;
+--searchBg: var(--containerBg);
+--scrollbarColor: #3f3f3f;
+--fontFamily: 'Roboto Mono', monospace;
+}
+
 body {
   background-color: var(--bg);
   margin: 0px;
