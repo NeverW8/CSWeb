@@ -23,6 +23,7 @@ ul {
 
 zero-md {
   color: white;
+  font-family: var(--fontFamily);
 }
 
 a {
@@ -73,6 +74,10 @@ h1 {
 .blog-container {
   display: flex;
   justify-content: center;
+}
+
+.blog-content {
+
 }
 
 .container {
