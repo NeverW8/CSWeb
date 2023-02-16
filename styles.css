@@ -11,20 +11,12 @@
 }
 
 img {
-    border: 5px solid #555;
+  border: 5px solid #555;
 
 }
 
 .menu {
-display: flex;
-justify-content: space-between;
---bg: #1e2d38;
---fg: #ffffff;
---secondaryFg: #b3b3b3;
---containerBg: #272727;
---searchBg: var(--containerBg);
---scrollbarColor: #3f3f3f;
---fontFamily: 'Roboto Mono', monospace;
+  display: flex;
 }
 
 body {
@@ -59,7 +51,7 @@ h1 {
   margin-bottom: 0.25em;
 }
 
-.information{
+.information {
   width: 30%;
   background-color: var(--containerBg);
   padding: 1em;
@@ -68,45 +60,45 @@ h1 {
   color: var(--fg);
   text-align: center;
 }
+
 .inline {
   display: inline-block;
 }
 
 
 
- /* Style all font awesome icons */
+/* Style all font awesome icons */
 .fa {
-      padding: 20px;
-        font-size: 30px;
-          width: 50px;
-            text-align: center;
-              text-decoration: none;
-              
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+
 }
 
 /* Add a hover effect if you want */
 .fa:hover {
-      opacity: 0.7;
-      
+  opacity: 0.7;
+
 }
 
 /* Set a specific color for each brand */
 
 .fa-linkedin {
-      background: #3B5998;
-        color: white;
-        
+  background: #3B5998;
+  color: white;
+
 }
 
 .fa-github {
-      background: #55ACEE;
-        color: white;
-        
-} 
+  background: #55ACEE;
+  color: white;
 
-.resume {
-      position: relative;
-        width: 50%;
-        
 }
 
+.resume {
+  position: relative;
+  width: 50%;
+
+}
